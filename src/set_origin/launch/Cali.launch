@@ -1,0 +1,5 @@
+<launch>
+
+    <node pkg="set_origin" type="Cali" name="Cali" output="screen" />
+
+</launch>

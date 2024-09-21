@@ -1,0 +1,5 @@
+<launch>
+
+    <node pkg="set_origin" type="collect_data" name="collect_data" output="screen" />
+
+</launch>

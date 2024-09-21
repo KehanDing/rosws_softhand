@@ -1,0 +1,5 @@
+<launch>
+
+    <node pkg="set_origin" type="set_origin" name="set_origin" output="screen" />
+
+</launch>

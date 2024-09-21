@@ -1,0 +1,5 @@
+<launch>
+
+    <node pkg="set_origin" type="collect_data_continous" name="collect_data_continous" output="screen" />
+
+</launch>

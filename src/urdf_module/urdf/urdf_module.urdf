@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-1-g15f4949  Build Version: 1.6.7594.29634
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="urdf_module">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.03 -3.46944695195361E-18 -0.01"
+        rpy="0 0 0" />
+      <mass
+        value="0.06" />
+      <inertia
+        ixx="1.45E-05"
+        ixy="7.83401467373784E-22"
+        ixz="2.5787451850632E-22"
+        iyy="2E-05"
+        iyz="5.99787041618627E-38"
+        izz="3.05E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://urdf_module/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://urdf_module/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="PALM">
+    <inertial>
+      <origin
+        xyz="0.03 -3.46944695195361E-18 -0.01"
+        rpy="0 0 0" />
+      <mass
+        value="0.06" />
+      <inertia
+        ixx="1.45E-05"
+        ixy="7.83401467373784E-22"
+        ixz="2.5787451850632E-22"
+        iyy="2E-05"
+        iyz="5.99787041618627E-38"
+        izz="3.05E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://urdf_module/meshes/PALM.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://urdf_module/meshes/PALM.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="palm"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="PALM" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="INDEX_MCP_PALM">
+    <inertial>
+      <origin
+        xyz="0.025 0 -0.00750000000000001"
+        rpy="0 0 0" />
+      <mass
+        value="0.01125" />
+      <inertia
+        ixx="4.21875E-07"
+        ixy="1.46897335857982E-22"
+        ixz="-6.08804930839028E-22"
+        iyy="2.5546875E-06"
+        iyz="8.72925860863832E-24"
+        izz="2.5546875E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://urdf_module/meshes/INDEX_MCP_PALM.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://urdf_module/meshes/INDEX_MCP_PALM.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="index_mcp_palm"
+    type="floating">
+    <origin
+      xyz="0.06 -0.0175 0"
+      rpy="0 -0.36628 0" />
+    <parent
+      link="PALM" />
+    <child
+      link="INDEX_MCP_PALM" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="10"
+      velocity="10" />
+  </joint>
+  <link
+    name="INDEX_PIP_MCP">
+    <inertial>
+      <origin
+        xyz="0.0125 -8.67361737988404E-19 -0.00749999999999999"
+        rpy="0 0 0" />
+      <mass
+        value="0.005625" />
+      <inertia
+        ixx="2.109375E-07"
+        ixy="4.01304672381693E-23"
+        ixz="0"
+        iyy="3.984375E-07"
+        iyz="2.35097070546311E-23"
+        izz="3.984375E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://urdf_module/meshes/INDEX_PIP_MCP.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://urdf_module/meshes/INDEX_PIP_MCP.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="index_pip_mcp"
+    type="floating">
+    <origin
+      xyz="0.05 0 0"
+      rpy="0 -0.32968 0" />
+    <parent
+      link="INDEX_MCP_PALM" />
+    <child
+      link="INDEX_PIP_MCP" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="10"
+      velocity="10" />
+  </joint>
+  <link
+    name="INDEX_DIP_PIP">
+    <inertial>
+      <origin
+        xyz="0.0121399587970369 -8.67361737988404E-19 -0.00769373642902275"
+        rpy="0 0 0" />
+      <mass
+        value="0.0054439297003666" />
+      <inertia
+        ixx="2.00836721278294E-07"
+        ixy="2.87707034690326E-24"
+        ixz="1.15857856437503E-08"
+        iyy="3.69451082893236E-07"
+        iyz="-2.91489079727678E-24"
+        izz="3.72761725378689E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://urdf_module/meshes/INDEX_DIP_PIP.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://urdf_module/meshes/INDEX_DIP_PIP.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="index_dip_pip"
+    type="floating">
+    <origin
+      xyz="0.025 0 0"
+      rpy="0 -0.30936 0" />
+    <parent
+      link="INDEX_PIP_MCP" />
+    <child
+      link="INDEX_DIP_PIP" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="10"
+      velocity="10" />
+  </joint>
+</robot>
