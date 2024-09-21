@@ -1,0 +1,6 @@
+float32 TORQUE_X
+float32 TORQUE_Y
+float32 TORQUE_Z
+float32 FORCE_X
+float32 FORCE_Y
+float32 FORCE_Z

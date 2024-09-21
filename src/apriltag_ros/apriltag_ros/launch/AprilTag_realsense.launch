@@ -1,0 +1,9 @@
+<launch>
+    <!-- 启动realsense -->
+    <include file="/home/zhenruichen/下载/realsense-ros-3.2.2/realsense2_camera/launch/rs_camera.launch" />
+    <!-- 启动Apriltag -->
+    <include file="$(find apriltag_ros)/launch/continuous_detection_realsense.launch" />
+    <!-- 在rviz中显示 -->
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find apriltag_ros)/config/AprilTag_realsense_rviz.rviz" required="true" />
+
+</launch>

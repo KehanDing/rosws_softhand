@@ -1,0 +1,9 @@
+<launch>
+    <!-- 启动kinect -->
+    <include file="/home/zhenruichen/iai_kinect/src/iai_kinect2/kinect2_bridge/launch/kinect2_bridge.launch" />
+    <!-- 启动Apriltag -->
+    <include file="$(find apriltag_ros)/launch/continuous_detection_kinect.launch" />
+    <!-- 在rviz中显示 -->
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find apriltag_ros)/config/AprilTag_kinect_rviz.rviz" required="true" />
+
+</launch>

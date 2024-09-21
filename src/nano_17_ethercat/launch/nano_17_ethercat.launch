@@ -1,0 +1,7 @@
+<launch>
+  
+    <node name="nano_17_ethercat" pkg="nano_17_ethercat" type="nano_17_ethercat" output="screen"> 
+        <param name="ros_freq" type="double" value="100.0"/>     
+    </node>      
+  
+</launch>
