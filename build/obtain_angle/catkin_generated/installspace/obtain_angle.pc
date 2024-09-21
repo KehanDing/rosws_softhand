@@ -1,0 +1,8 @@
+prefix=/home/zhenruichen/rosws_softhand/install
+
+Name: obtain_angle
+Description: Description of obtain_angle
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

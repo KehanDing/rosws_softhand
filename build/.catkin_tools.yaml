@@ -1,0 +1,6 @@
+devel_space: /home/zhenruichen/rosws_softhand/devel
+install: false
+install_space: /home/zhenruichen/rosws_softhand/install
+profile: default
+source_space: /home/zhenruichen/rosws_softhand/src
+workspace: /home/zhenruichen/rosws_softhand

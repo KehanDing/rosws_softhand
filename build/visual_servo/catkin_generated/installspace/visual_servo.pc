@@ -1,0 +1,8 @@
+prefix=/home/zhenruichen/rosws_softhand/install
+
+Name: visual_servo
+Description: Description of visual_servo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
