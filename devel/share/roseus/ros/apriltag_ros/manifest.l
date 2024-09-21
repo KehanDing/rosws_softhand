@@ -1,0 +1,1 @@
+/home/zhenruichen/rosws_softhand/devel/.private/apriltag_ros/share/roseus/ros/apriltag_ros/manifest.l

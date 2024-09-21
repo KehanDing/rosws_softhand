@@ -1,0 +1,1 @@
+/home/zhenruichen/rosws_softhand/devel/.private/urdf_module/lib/pkgconfig/urdf_module.pc

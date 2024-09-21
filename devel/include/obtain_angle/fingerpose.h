@@ -1,0 +1,1 @@
+/home/zhenruichen/rosws_softhand/devel/.private/obtain_angle/include/obtain_angle/fingerpose.h

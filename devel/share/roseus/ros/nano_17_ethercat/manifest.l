@@ -1,0 +1,1 @@
+/home/zhenruichen/rosws_softhand/devel/.private/nano_17_ethercat/share/roseus/ros/nano_17_ethercat/manifest.l

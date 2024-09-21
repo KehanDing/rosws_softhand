@@ -1,0 +1,1 @@
+/home/zhenruichen/rosws_softhand/devel/.private/obtain_angle/share/obtain_angle/cmake/obtain_angleConfig.cmake

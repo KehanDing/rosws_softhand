@@ -1,0 +1,1 @@
+/home/zhenruichen/rosws_softhand/devel/.private/serial_communication/lib/pkgconfig/serial_communication.pc

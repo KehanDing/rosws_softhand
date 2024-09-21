@@ -1,0 +1,1 @@
+/home/zhenruichen/rosws_softhand/devel/.private/serial_communication/share/gennodejs/ros/serial_communication/msg/lzq.js

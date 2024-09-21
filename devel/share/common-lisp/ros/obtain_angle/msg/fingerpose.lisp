@@ -1,0 +1,1 @@
+/home/zhenruichen/rosws_softhand/devel/.private/obtain_angle/share/common-lisp/ros/obtain_angle/msg/fingerpose.lisp

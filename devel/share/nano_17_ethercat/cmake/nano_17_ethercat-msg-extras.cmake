@@ -1,0 +1,1 @@
+/home/zhenruichen/rosws_softhand/devel/.private/nano_17_ethercat/share/nano_17_ethercat/cmake/nano_17_ethercat-msg-extras.cmake

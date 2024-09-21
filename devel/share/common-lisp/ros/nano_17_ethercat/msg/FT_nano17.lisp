@@ -1,0 +1,1 @@
+/home/zhenruichen/rosws_softhand/devel/.private/nano_17_ethercat/share/common-lisp/ros/nano_17_ethercat/msg/FT_nano17.lisp

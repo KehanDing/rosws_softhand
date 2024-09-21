@@ -1,0 +1,1 @@
+/home/zhenruichen/rosws_softhand/devel/.private/nano_17_ethercat/lib/pkgconfig/nano_17_ethercat.pc

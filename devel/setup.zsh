@@ -1,0 +1,1 @@
+/home/zhenruichen/rosws_softhand/devel/.private/catkin_tools_prebuild/setup.zsh

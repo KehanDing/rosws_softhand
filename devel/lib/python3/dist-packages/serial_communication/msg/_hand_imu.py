@@ -1,0 +1,1 @@
+/home/zhenruichen/rosws_softhand/devel/.private/serial_communication/lib/python3/dist-packages/serial_communication/msg/_hand_imu.py

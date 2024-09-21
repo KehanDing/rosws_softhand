@@ -1,0 +1,1 @@
+/home/zhenruichen/rosws_softhand/devel/.private/set_origin/lib/pkgconfig/set_origin.pc

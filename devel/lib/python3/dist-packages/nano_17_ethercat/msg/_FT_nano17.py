@@ -1,0 +1,1 @@
+/home/zhenruichen/rosws_softhand/devel/.private/nano_17_ethercat/lib/python3/dist-packages/nano_17_ethercat/msg/_FT_nano17.py

@@ -1,0 +1,1 @@
+/home/zhenruichen/rosws_softhand/devel/.private/nano_17_ethercat/share/gennodejs/ros/nano_17_ethercat/msg/_index.js

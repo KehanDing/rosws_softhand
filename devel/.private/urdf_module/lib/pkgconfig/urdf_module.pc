@@ -1,0 +1,8 @@
+prefix=/home/zhenruichen/rosws_softhand/devel/.private/urdf_module
+
+Name: urdf_module
+Description: Description of urdf_module
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

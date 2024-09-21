@@ -1,0 +1,1 @@
+/home/zhenruichen/rosws_softhand/devel/.private/serial_communication/share/serial_communication/cmake/serial_communicationConfig.cmake

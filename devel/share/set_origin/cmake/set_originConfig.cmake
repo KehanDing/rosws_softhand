@@ -1,0 +1,1 @@
+/home/zhenruichen/rosws_softhand/devel/.private/set_origin/share/set_origin/cmake/set_originConfig.cmake

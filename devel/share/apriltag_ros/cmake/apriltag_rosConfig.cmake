@@ -1,0 +1,1 @@
+/home/zhenruichen/rosws_softhand/devel/.private/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig.cmake

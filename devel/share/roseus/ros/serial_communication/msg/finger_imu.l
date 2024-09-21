@@ -1,0 +1,1 @@
+/home/zhenruichen/rosws_softhand/devel/.private/serial_communication/share/roseus/ros/serial_communication/msg/finger_imu.l

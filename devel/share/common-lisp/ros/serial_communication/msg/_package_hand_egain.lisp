@@ -1,0 +1,1 @@
+/home/zhenruichen/rosws_softhand/devel/.private/serial_communication/share/common-lisp/ros/serial_communication/msg/_package_hand_egain.lisp

@@ -1,0 +1,1 @@
+/home/zhenruichen/rosws_softhand/devel/.private/urdf_module/share/urdf_module/cmake/urdf_moduleConfig-version.cmake

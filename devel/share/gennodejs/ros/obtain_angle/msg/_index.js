@@ -1,0 +1,1 @@
+/home/zhenruichen/rosws_softhand/devel/.private/obtain_angle/share/gennodejs/ros/obtain_angle/msg/_index.js

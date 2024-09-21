@@ -1,0 +1,1 @@
+/home/zhenruichen/rosws_softhand/devel/.private/apriltag_ros/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py

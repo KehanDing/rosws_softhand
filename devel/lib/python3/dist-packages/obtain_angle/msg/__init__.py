@@ -1,0 +1,1 @@
+/home/zhenruichen/rosws_softhand/devel/.private/obtain_angle/lib/python3/dist-packages/obtain_angle/msg/__init__.py

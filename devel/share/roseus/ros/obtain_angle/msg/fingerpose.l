@@ -1,0 +1,1 @@
+/home/zhenruichen/rosws_softhand/devel/.private/obtain_angle/share/roseus/ros/obtain_angle/msg/fingerpose.l
