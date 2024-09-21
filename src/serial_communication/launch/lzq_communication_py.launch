@@ -1,0 +1,8 @@
+<launch>
+    <param name="port" value="/dev/ttyUSB0"/>		
+    <param name="baudrate" value="115200"/>
+    <param name="com_freq" value="20.0"/>    
+    <node name="lzq_communication" pkg="serial_communication" type="lzq_communication.py" output="screen">     
+    </node>      
+  
+</launch>

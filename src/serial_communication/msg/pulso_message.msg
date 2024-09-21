@@ -1,0 +1,7 @@
+uint8 ID
+uint16 static_pressure_1
+uint16 static_pressure_2
+uint16 static_pressure_3
+uint16 dynamic_pulse_1
+uint16 dynamic_pulse_2
+uint16 dynamic_pulse_3

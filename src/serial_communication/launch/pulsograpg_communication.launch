@@ -1,0 +1,9 @@
+<launch>
+  
+    <node name="pulsograph_communication" pkg="serial_communication" type="pulsograph_communication" output="screen">   
+        <param name="port" type="string" value="/dev/ttyUSB0"/>		
+        <param name="baudrate" type="int" value="256000"/>
+	<param name="com_freq" type="double" value="1000.0"/>    
+    </node>      
+  
+</launch>

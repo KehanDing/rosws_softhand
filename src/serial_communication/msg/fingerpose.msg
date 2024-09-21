@@ -1,0 +1,9 @@
+geometry_msgs/Quaternion origin_Q_tag1
+geometry_msgs/Quaternion origin_Q_tag2
+geometry_msgs/Quaternion origin_Q_tag3
+geometry_msgs/Vector3 YAW_DIP
+geometry_msgs/Vector3 TRANS_DIP
+geometry_msgs/Vector3 YAW_PIP
+geometry_msgs/Vector3 TRANS_PIP
+geometry_msgs/Vector3 YAW_MCP
+geometry_msgs/Vector3 TRANS_MCP

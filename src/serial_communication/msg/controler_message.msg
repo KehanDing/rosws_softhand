@@ -1,0 +1,6 @@
+uint8 ID
+uint16 time
+hand_pressure Pressure_Data
+hand_egain EGaIn_Data
+hand_force Force_Data
+hand_imu IMU_Data

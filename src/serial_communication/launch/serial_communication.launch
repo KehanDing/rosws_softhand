@@ -1,0 +1,9 @@
+<launch>
+  
+    <node name="serial_communication" pkg="serial_communication" type="serial_communication" output="screen">   
+        <param name="port" type="string" value="/dev/ttyUSB0"/>		
+        <param name="baudrate" type="int" value="460800"/>
+	<param name="com_freq" type="double" value="50.0"/>    
+    </node>      
+  
+</launch>

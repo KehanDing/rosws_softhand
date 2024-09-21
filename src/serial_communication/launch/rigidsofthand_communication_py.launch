@@ -1,0 +1,8 @@
+<launch>
+    <param name="port" value="/dev/ttyUSB0"/>		
+    <param name="baudrate" value="460800"/>
+    <param name="com_freq" value="150.0"/>    
+    <node name="rigidsofthand_communication" pkg="serial_communication" type="rigidsofthand_communication.py" output="screen">     
+    </node>      
+  
+</launch>

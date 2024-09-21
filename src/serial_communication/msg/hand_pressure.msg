@@ -1,0 +1,6 @@
+finger_pressure THUMB0
+finger_pressure THUMB1
+finger_pressure INDEX
+finger_pressure MIDDLE
+finger_pressure RING
+finger_pressure LITTLE
