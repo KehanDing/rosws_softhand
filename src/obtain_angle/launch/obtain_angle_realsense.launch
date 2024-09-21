@@ -1,0 +1,9 @@
+<launch>
+    <!-- 启动Apriltag -->
+    <include file="$(find apriltag_ros)/launch/continuous_detection_realsense.launch" />
+    <!-- 在rviz中显示 -->
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find apriltag_ros)/config/AprilTag_realsense_rviz.rviz" required="true" />
+    <node pkg="obtain_angle" type="obtain_angle" name="obtain_angle" output="screen"/>
+    <node pkg="set_origin" type="set_origin" name="set_origin" output="screen" />
+
+</launch>
