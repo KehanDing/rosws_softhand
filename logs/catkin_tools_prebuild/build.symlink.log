@@ -1,0 +1,12 @@
+Symlinking /home/zhenruichen/rosws_softhand/devel/./env.sh
+Symlinking /home/zhenruichen/rosws_softhand/devel/./local_setup.bash
+Symlinking /home/zhenruichen/rosws_softhand/devel/./local_setup.sh
+Symlinking /home/zhenruichen/rosws_softhand/devel/./local_setup.zsh
+Symlinking /home/zhenruichen/rosws_softhand/devel/./cmake.lock
+Symlinking /home/zhenruichen/rosws_softhand/devel/./setup.bash
+Symlinking /home/zhenruichen/rosws_softhand/devel/./setup.sh
+Symlinking /home/zhenruichen/rosws_softhand/devel/./_setup_util.py
+Symlinking /home/zhenruichen/rosws_softhand/devel/./setup.zsh
+Symlinking /home/zhenruichen/rosws_softhand/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/zhenruichen/rosws_softhand/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/zhenruichen/rosws_softhand/devel/lib/pkgconfig/catkin_tools_prebuild.pc
