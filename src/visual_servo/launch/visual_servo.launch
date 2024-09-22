@@ -1,0 +1,6 @@
+<launch>
+
+    <node name="visual_servo" pkg="visual_servo" type="my_yolo_231201.py" output="screen">     
+    </node>      
+  
+</launch>
