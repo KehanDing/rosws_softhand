@@ -11,10 +11,17 @@ import my_detect
 import queue
 import rospy
 
+# from visual_servo import object_position as OBJ_POS
+
+from visual_servo.msg import object_position as OBJ_POS
+
 #   定义全局变量
 connect_device = []
 pipeline_list = []
 config_list = []
+
+# 抓取对象位置信息更新频率
+FREQ = 30       
 
 
 def camera_information():
@@ -319,6 +326,19 @@ class Realsense2():
         
 
 if __name__ == '__main__':
+
+    # 初始化ROS节点
+    rospy.init_node("object_position")
+
+    # 创建发布对象
+    pub = rospy.Publisher("object_position",OBJ_POS,queue_size=10)
+
+    # 创建目标位置数据
+    obj_pos = OBJ_POS()
+
+    # 创建Rate对象
+    rate = rospy.Rate(FREQ)
+
     camera_information()
     # 存储检测及原始图像队列
     images_queue = queue.Queue(maxsize=1)
@@ -332,7 +352,8 @@ if __name__ == '__main__':
     # begin = endd = False
     key32_num = 0
     try:
-        while True:
+        # while True:
+        while not rospy.is_shutdown():
             # img1 = camera1.rgb_image()
             # if img0 is None or img1 is None:
             #     continue
@@ -360,6 +381,26 @@ if __name__ == '__main__':
                     camera0.resume()
             if key == 27:#ESC退出
                 break
+                
+            try:
+                for i in range(len(camera0.detections)):
+                    if camera0.detections[i]['class'] == 'bottle':
+                        obj_pos.x = camera0.target_pos_list[i][0]
+                        obj_pos.y = camera0.target_pos_list[i][1]
+                        obj_pos.z = camera0.target_pos_list[i][2]
+                        rospy.loginfo("检测到Bottle!位置信息: x = %f, y = %f, z = %f", obj_pos.x, obj_pos.y, obj_pos.z)
+                    else:
+                        obj_pos.x = 0
+                        obj_pos.y = 0
+                        obj_pos.z = 0
+            except:
+                print("[ERROR] IndexError: list index out of range")
+
+
+            
+            pub.publish(obj_pos)
+            rate.sleep()
+
     finally:
         camera0.stop()
         # camera1.stop()

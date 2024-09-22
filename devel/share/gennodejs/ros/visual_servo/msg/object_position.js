@@ -1,0 +1,1 @@
+/home/zhenruichen/rosws_softhand/devel/.private/visual_servo/share/gennodejs/ros/visual_servo/msg/object_position.js

@@ -1,0 +1,1 @@
+/home/zhenruichen/rosws_softhand/devel/.private/visual_servo/share/roseus/ros/visual_servo/manifest.l

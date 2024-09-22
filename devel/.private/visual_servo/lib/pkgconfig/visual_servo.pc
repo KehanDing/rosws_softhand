@@ -3,6 +3,6 @@ prefix=/home/zhenruichen/rosws_softhand/devel/.private/visual_servo
 Name: visual_servo
 Description: Description of visual_servo
 Version: 0.0.0
-Cflags: 
+Cflags: -I/home/zhenruichen/rosws_softhand/devel/.private/visual_servo/include
 Libs: -L${prefix}/lib 
-Requires: 
+Requires: roscpp rospy std_msgs message_runtime

@@ -11,4 +11,5 @@ export CMAKE_PREFIX_PATH="/home/zhenruichen/rosws_softhand/devel/.private/visual
 export LD_LIBRARY_PATH="/home/zhenruichen/rosws_softhand/devel/.private/visual_servo/lib:$LD_LIBRARY_PATH"
 export PKG_CONFIG_PATH="/home/zhenruichen/rosws_softhand/devel/.private/visual_servo/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/zhenruichen/rosws_softhand/build/visual_servo'
+export PYTHONPATH="/home/zhenruichen/rosws_softhand/devel/.private/visual_servo/lib/python3/dist-packages:$PYTHONPATH"
 export ROS_PACKAGE_PATH="/home/zhenruichen/rosws_softhand/src/visual_servo:$ROS_PACKAGE_PATH"

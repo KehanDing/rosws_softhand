@@ -1,0 +1,1 @@
+/home/zhenruichen/rosws_softhand/devel/.private/visual_servo/lib/python3/dist-packages/visual_servo/msg/_object_position.py

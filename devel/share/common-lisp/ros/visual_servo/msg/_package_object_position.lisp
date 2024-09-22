@@ -1,0 +1,1 @@
+/home/zhenruichen/rosws_softhand/devel/.private/visual_servo/share/common-lisp/ros/visual_servo/msg/_package_object_position.lisp

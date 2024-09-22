@@ -3,9 +3,11 @@
     "python.autoComplete.extraPaths": [
         "/home/zhenruichen/rosws_softhand/devel/lib/python3/dist-packages",
         "/opt/ros/noetic/lib/python3/dist-packages"
+        // "/home/zhenruichen/rosws_softhand/devel/lib/python3/dist-packages"
     ],
     "python.analysis.extraPaths": [
         "/home/zhenruichen/rosws_softhand/devel/lib/python3/dist-packages",
         "/opt/ros/noetic/lib/python3/dist-packages"
-    ]
+    ],
+    "cmake.ignoreCMakeListsMissing": true
 }

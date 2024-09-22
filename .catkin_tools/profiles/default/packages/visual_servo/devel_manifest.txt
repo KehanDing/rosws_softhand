@@ -1,5 +1,20 @@
 visual_servo
 /home/zhenruichen/rosws_softhand/devel/.private/visual_servo/cmake.lock /home/zhenruichen/rosws_softhand/devel/./cmake.lock
+/home/zhenruichen/rosws_softhand/devel/.private/visual_servo/share/common-lisp/ros/visual_servo/msg/object_position.lisp /home/zhenruichen/rosws_softhand/devel/share/common-lisp/ros/visual_servo/msg/object_position.lisp
+/home/zhenruichen/rosws_softhand/devel/.private/visual_servo/share/common-lisp/ros/visual_servo/msg/_package.lisp /home/zhenruichen/rosws_softhand/devel/share/common-lisp/ros/visual_servo/msg/_package.lisp
+/home/zhenruichen/rosws_softhand/devel/.private/visual_servo/share/common-lisp/ros/visual_servo/msg/_package_object_position.lisp /home/zhenruichen/rosws_softhand/devel/share/common-lisp/ros/visual_servo/msg/_package_object_position.lisp
+/home/zhenruichen/rosws_softhand/devel/.private/visual_servo/share/common-lisp/ros/visual_servo/msg/visual_servo-msg.asd /home/zhenruichen/rosws_softhand/devel/share/common-lisp/ros/visual_servo/msg/visual_servo-msg.asd
+/home/zhenruichen/rosws_softhand/devel/.private/visual_servo/share/gennodejs/ros/visual_servo/_index.js /home/zhenruichen/rosws_softhand/devel/share/gennodejs/ros/visual_servo/_index.js
+/home/zhenruichen/rosws_softhand/devel/.private/visual_servo/share/gennodejs/ros/visual_servo/msg/_index.js /home/zhenruichen/rosws_softhand/devel/share/gennodejs/ros/visual_servo/msg/_index.js
+/home/zhenruichen/rosws_softhand/devel/.private/visual_servo/share/gennodejs/ros/visual_servo/msg/object_position.js /home/zhenruichen/rosws_softhand/devel/share/gennodejs/ros/visual_servo/msg/object_position.js
 /home/zhenruichen/rosws_softhand/devel/.private/visual_servo/share/visual_servo/cmake/visual_servoConfig-version.cmake /home/zhenruichen/rosws_softhand/devel/share/visual_servo/cmake/visual_servoConfig-version.cmake
+/home/zhenruichen/rosws_softhand/devel/.private/visual_servo/share/visual_servo/cmake/visual_servo-msg-paths.cmake /home/zhenruichen/rosws_softhand/devel/share/visual_servo/cmake/visual_servo-msg-paths.cmake
+/home/zhenruichen/rosws_softhand/devel/.private/visual_servo/share/visual_servo/cmake/visual_servo-msg-extras.cmake /home/zhenruichen/rosws_softhand/devel/share/visual_servo/cmake/visual_servo-msg-extras.cmake
 /home/zhenruichen/rosws_softhand/devel/.private/visual_servo/share/visual_servo/cmake/visual_servoConfig.cmake /home/zhenruichen/rosws_softhand/devel/share/visual_servo/cmake/visual_servoConfig.cmake
+/home/zhenruichen/rosws_softhand/devel/.private/visual_servo/share/roseus/ros/visual_servo/manifest.l /home/zhenruichen/rosws_softhand/devel/share/roseus/ros/visual_servo/manifest.l
+/home/zhenruichen/rosws_softhand/devel/.private/visual_servo/share/roseus/ros/visual_servo/msg/object_position.l /home/zhenruichen/rosws_softhand/devel/share/roseus/ros/visual_servo/msg/object_position.l
+/home/zhenruichen/rosws_softhand/devel/.private/visual_servo/include/visual_servo/object_position.h /home/zhenruichen/rosws_softhand/devel/include/visual_servo/object_position.h
+/home/zhenruichen/rosws_softhand/devel/.private/visual_servo/lib/python3/dist-packages/visual_servo/__init__.py /home/zhenruichen/rosws_softhand/devel/lib/python3/dist-packages/visual_servo/__init__.py
+/home/zhenruichen/rosws_softhand/devel/.private/visual_servo/lib/python3/dist-packages/visual_servo/msg/__init__.py /home/zhenruichen/rosws_softhand/devel/lib/python3/dist-packages/visual_servo/msg/__init__.py
+/home/zhenruichen/rosws_softhand/devel/.private/visual_servo/lib/python3/dist-packages/visual_servo/msg/_object_position.py /home/zhenruichen/rosws_softhand/devel/lib/python3/dist-packages/visual_servo/msg/_object_position.py
 /home/zhenruichen/rosws_softhand/devel/.private/visual_servo/lib/pkgconfig/visual_servo.pc /home/zhenruichen/rosws_softhand/devel/lib/pkgconfig/visual_servo.pc
