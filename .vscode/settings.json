@@ -1,0 +1,11 @@
+{
+    "python.defaultInterpreterPath": "/home/zhenruichen/anaconda3/bin/python3",
+    "python.autoComplete.extraPaths": [
+        "/home/zhenruichen/rosws_softhand/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/zhenruichen/rosws_softhand/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}

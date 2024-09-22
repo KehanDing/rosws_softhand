@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/zhenruichen/rosws_softhand/devel/include/**",
+                "/opt/ros/noetic/include/**",
+                "/home/zhenruichen/rosws_softhand/src/apriltag_ros/apriltag_ros/include/**",
+                "/home/zhenruichen/rosws_softhand/src/nano_17_ethercat/include/**",
+                "/home/zhenruichen/rosws_softhand/src/obtain_angle/include/**",
+                "/home/zhenruichen/rosws_softhand/src/serial_communication/include/**",
+                "/home/zhenruichen/rosws_softhand/src/set_origin/include/**",
+                "/home/zhenruichen/rosws_softhand/src/usb_cam/include/**",
+                "/usr/include/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

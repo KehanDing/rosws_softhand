@@ -1,0 +1,8 @@
+set_origin
+/home/zhenruichen/rosws_softhand/devel/.private/set_origin/cmake.lock /home/zhenruichen/rosws_softhand/devel/./cmake.lock
+/home/zhenruichen/rosws_softhand/devel/.private/set_origin/share/set_origin/cmake/set_originConfig-version.cmake /home/zhenruichen/rosws_softhand/devel/share/set_origin/cmake/set_originConfig-version.cmake
+/home/zhenruichen/rosws_softhand/devel/.private/set_origin/share/set_origin/cmake/set_originConfig.cmake /home/zhenruichen/rosws_softhand/devel/share/set_origin/cmake/set_originConfig.cmake
+/home/zhenruichen/rosws_softhand/devel/.private/set_origin/lib/set_origin/collect_data_continous /home/zhenruichen/rosws_softhand/devel/lib/set_origin/collect_data_continous
+/home/zhenruichen/rosws_softhand/devel/.private/set_origin/lib/set_origin/collect_data /home/zhenruichen/rosws_softhand/devel/lib/set_origin/collect_data
+/home/zhenruichen/rosws_softhand/devel/.private/set_origin/lib/set_origin/set_origin /home/zhenruichen/rosws_softhand/devel/lib/set_origin/set_origin
+/home/zhenruichen/rosws_softhand/devel/.private/set_origin/lib/pkgconfig/set_origin.pc /home/zhenruichen/rosws_softhand/devel/lib/pkgconfig/set_origin.pc
