@@ -296,11 +296,18 @@ class Realsense2():
                     if dist:
                         distance_list.append(dist)
                 if len(distance_list) != 0:
-                    print(distance_list is True, np.mean(distance_list), len(distance_list))
+                    # print(distance_list is True, np.mean(distance_list), len(distance_list))
                     distance_list = np.array(distance_list)
                     if len(distance_list) != 1:
                         distance_list = np.sort(distance_list)[len(distance_list)//2-len(distance_list)//4-1:len(distance_list)//2+len(distance_list)//4-1] #冒泡排序+中值滤波
-                        average_distance = np.mean(distance_list)
+                        # average_distance = np.mean(distance_list)
+
+                        # 防止对空数组求mean
+                        if len(distance_list) >0:
+                            average_distance = np.mean(distance_list)
+                        else:
+                            average_distance = 0
+
                     else:
                         average_distance = distance_list[0]
                     target_xyz = rs.rs2_deproject_pixel_to_point(
